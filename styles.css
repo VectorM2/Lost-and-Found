@@ -1,0 +1,43 @@
+:root{
+ --primary:#0c5c54;
+ --secondary:#f2bb24;
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
+
+body {
+ font-family: 'Lato', sans-serif;
+}
+
+
+a{
+ text-decoration: none;
+ color:var(--primary)
+}
+
+a:hover{
+ color: var(--secondary) !important;
+}
+
+.app button{
+ background-color: var(--primary) !important;
+ color:white;
+ outline: none !important;
+ border: none !important;
+}
+
+.app button:hover{
+ background-color: var(--secondary) !important;
+}
+ button:active{
+ transform: scale(0.90);
+ transition: 0.05s;
+}
+
+.logo{
+ font-weight: 500;
+ color: var(--primary);
+}
